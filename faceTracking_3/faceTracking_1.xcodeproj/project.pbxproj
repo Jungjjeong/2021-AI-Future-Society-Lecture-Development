@@ -7,65 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FD8E8AAF27240DFA00075CE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8E8AAE27240DFA00075CE1 /* AppDelegate.swift */; };
-		FD8E8AB127240DFA00075CE1 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = FD8E8AB027240DFA00075CE1 /* art.scnassets */; };
-		FD8E8AB327240DFA00075CE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8E8AB227240DFA00075CE1 /* ViewController.swift */; };
-		FD8E8AB627240DFA00075CE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD8E8AB427240DFA00075CE1 /* Main.storyboard */; };
-		FD8E8AB827240DFB00075CE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD8E8AB727240DFB00075CE1 /* Assets.xcassets */; };
-		FD8E8ABB27240DFB00075CE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD8E8AB927240DFB00075CE1 /* LaunchScreen.storyboard */; };
-		FD8E8AC527240DFB00075CE1 /* ARKit_tutorial_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8E8AC427240DFB00075CE1 /* ARKit_tutorial_1Tests.swift */; };
-		FD8E8ACF27240DFB00075CE1 /* ARKit_tutorial_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8E8ACE27240DFB00075CE1 /* ARKit_tutorial_1UITests.swift */; };
-		FD8E8AD127240DFC00075CE1 /* ARKit_tutorial_1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8E8AD027240DFC00075CE1 /* ARKit_tutorial_1UITestsLaunchTests.swift */; };
+		FD86C25327390CAC00FC9565 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD86C25227390CAC00FC9565 /* AppDelegate.swift */; };
+		FD86C25727390CAC00FC9565 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD86C25627390CAC00FC9565 /* ViewController.swift */; };
+		FD86C25A27390CAC00FC9565 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD86C25827390CAC00FC9565 /* Main.storyboard */; };
+		FD86C25C27390CAD00FC9565 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD86C25B27390CAD00FC9565 /* Assets.xcassets */; };
+		FD86C25F27390CAD00FC9565 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD86C25D27390CAD00FC9565 /* LaunchScreen.storyboard */; };
+		FD86C26927390CAD00FC9565 /* faceTracking_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD86C26827390CAD00FC9565 /* faceTracking_1Tests.swift */; };
+		FD86C282273915EC00FC9565 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = FD86C281273915EC00FC9565 /* Models.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FD8E8AC127240DFB00075CE1 /* PBXContainerItemProxy */ = {
+		FD86C26527390CAD00FC9565 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FD8E8AA327240DFA00075CE1 /* Project object */;
+			containerPortal = FD86C24727390CAC00FC9565 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FD8E8AAA27240DFA00075CE1;
-			remoteInfo = "ARKit tutorial_1";
+			remoteGlobalIDString = FD86C24E27390CAC00FC9565;
+			remoteInfo = faceTracking_1;
 		};
-		FD8E8ACB27240DFB00075CE1 /* PBXContainerItemProxy */ = {
+		FD86C26F27390CAD00FC9565 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FD8E8AA327240DFA00075CE1 /* Project object */;
+			containerPortal = FD86C24727390CAC00FC9565 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FD8E8AAA27240DFA00075CE1;
-			remoteInfo = "ARKit tutorial_1";
+			remoteGlobalIDString = FD86C24E27390CAC00FC9565;
+			remoteInfo = faceTracking_1;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FD8E8AAB27240DFA00075CE1 /* ARKit tutorial_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARKit tutorial_1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD8E8AAE27240DFA00075CE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FD8E8AB027240DFA00075CE1 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		FD8E8AB227240DFA00075CE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FD8E8AB527240DFA00075CE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FD8E8AB727240DFB00075CE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FD8E8ABA27240DFB00075CE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FD8E8AC027240DFB00075CE1 /* ARKit tutorial_1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKit tutorial_1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD8E8AC427240DFB00075CE1 /* ARKit_tutorial_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKit_tutorial_1Tests.swift; sourceTree = "<group>"; };
-		FD8E8ACA27240DFB00075CE1 /* ARKit tutorial_1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKit tutorial_1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD8E8ACE27240DFB00075CE1 /* ARKit_tutorial_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKit_tutorial_1UITests.swift; sourceTree = "<group>"; };
-		FD8E8AD027240DFC00075CE1 /* ARKit_tutorial_1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKit_tutorial_1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FD86C24F27390CAC00FC9565 /* faceTracking_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = faceTracking_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD86C25227390CAC00FC9565 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD86C25627390CAC00FC9565 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD86C25927390CAC00FC9565 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD86C25B27390CAD00FC9565 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD86C25E27390CAD00FC9565 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD86C26427390CAD00FC9565 /* faceTracking_1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = faceTracking_1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD86C26827390CAD00FC9565 /* faceTracking_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = faceTracking_1Tests.swift; sourceTree = "<group>"; };
+		FD86C26E27390CAD00FC9565 /* faceTracking_1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = faceTracking_1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD86C281273915EC00FC9565 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = Models.scnassets; path = faceTracking_1/Models.scnassets; sourceTree = "<group>"; };
+		FD86C284273930A500FC9565 /* faceTracking_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = faceTracking_1UITests.swift; sourceTree = "<group>"; };
+		FD86C285273930A500FC9565 /* faceTracking_1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = faceTracking_1UITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FD8E8AA827240DFA00075CE1 /* Frameworks */ = {
+		FD86C24C27390CAC00FC9565 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD8E8ABD27240DFB00075CE1 /* Frameworks */ = {
+		FD86C26127390CAD00FC9565 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD8E8AC727240DFB00075CE1 /* Frameworks */ = {
+		FD86C26B27390CAD00FC9565 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,136 +73,136 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FD8E8AA227240DFA00075CE1 = {
+		FD86C24627390CAC00FC9565 = {
 			isa = PBXGroup;
 			children = (
-				FD8E8AAD27240DFA00075CE1 /* ARKit tutorial_1 */,
-				FD8E8AC327240DFB00075CE1 /* ARKit tutorial_1Tests */,
-				FD8E8ACD27240DFB00075CE1 /* ARKit tutorial_1UITests */,
-				FD8E8AAC27240DFA00075CE1 /* Products */,
+				FD86C25127390CAC00FC9565 /* faceTracking_1 */,
+				FD86C26727390CAD00FC9565 /* faceTracking_1Tests */,
+				FD86C283273930A500FC9565 /* faceTracking_1UITests */,
+				FD86C281273915EC00FC9565 /* Models.scnassets */,
+				FD86C25027390CAC00FC9565 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FD8E8AAC27240DFA00075CE1 /* Products */ = {
+		FD86C25027390CAC00FC9565 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FD8E8AAB27240DFA00075CE1 /* ARKit tutorial_1.app */,
-				FD8E8AC027240DFB00075CE1 /* ARKit tutorial_1Tests.xctest */,
-				FD8E8ACA27240DFB00075CE1 /* ARKit tutorial_1UITests.xctest */,
+				FD86C24F27390CAC00FC9565 /* faceTracking_1.app */,
+				FD86C26427390CAD00FC9565 /* faceTracking_1Tests.xctest */,
+				FD86C26E27390CAD00FC9565 /* faceTracking_1UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FD8E8AAD27240DFA00075CE1 /* ARKit tutorial_1 */ = {
+		FD86C25127390CAC00FC9565 /* faceTracking_1 */ = {
 			isa = PBXGroup;
 			children = (
-				FD8E8AAE27240DFA00075CE1 /* AppDelegate.swift */,
-				FD8E8AB027240DFA00075CE1 /* art.scnassets */,
-				FD8E8AB227240DFA00075CE1 /* ViewController.swift */,
-				FD8E8AB427240DFA00075CE1 /* Main.storyboard */,
-				FD8E8AB727240DFB00075CE1 /* Assets.xcassets */,
-				FD8E8AB927240DFB00075CE1 /* LaunchScreen.storyboard */,
+				FD86C25227390CAC00FC9565 /* AppDelegate.swift */,
+				FD86C25627390CAC00FC9565 /* ViewController.swift */,
+				FD86C25827390CAC00FC9565 /* Main.storyboard */,
+				FD86C25B27390CAD00FC9565 /* Assets.xcassets */,
+				FD86C25D27390CAD00FC9565 /* LaunchScreen.storyboard */,
 			);
-			path = "ARKit tutorial_1";
+			path = faceTracking_1;
 			sourceTree = "<group>";
 		};
-		FD8E8AC327240DFB00075CE1 /* ARKit tutorial_1Tests */ = {
+		FD86C26727390CAD00FC9565 /* faceTracking_1Tests */ = {
 			isa = PBXGroup;
 			children = (
-				FD8E8AC427240DFB00075CE1 /* ARKit_tutorial_1Tests.swift */,
+				FD86C26827390CAD00FC9565 /* faceTracking_1Tests.swift */,
 			);
-			path = "ARKit tutorial_1Tests";
+			path = faceTracking_1Tests;
 			sourceTree = "<group>";
 		};
-		FD8E8ACD27240DFB00075CE1 /* ARKit tutorial_1UITests */ = {
+		FD86C283273930A500FC9565 /* faceTracking_1UITests */ = {
 			isa = PBXGroup;
 			children = (
-				FD8E8ACE27240DFB00075CE1 /* ARKit_tutorial_1UITests.swift */,
-				FD8E8AD027240DFC00075CE1 /* ARKit_tutorial_1UITestsLaunchTests.swift */,
+				FD86C284273930A500FC9565 /* faceTracking_1UITests.swift */,
+				FD86C285273930A500FC9565 /* faceTracking_1UITestsLaunchTests.swift */,
 			);
-			path = "ARKit tutorial_1UITests";
+			path = faceTracking_1UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FD8E8AAA27240DFA00075CE1 /* ARKit tutorial_1 */ = {
+		FD86C24E27390CAC00FC9565 /* faceTracking_1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD8E8AD427240DFC00075CE1 /* Build configuration list for PBXNativeTarget "ARKit tutorial_1" */;
+			buildConfigurationList = FD86C27827390CAD00FC9565 /* Build configuration list for PBXNativeTarget "faceTracking_1" */;
 			buildPhases = (
-				FD8E8AA727240DFA00075CE1 /* Sources */,
-				FD8E8AA827240DFA00075CE1 /* Frameworks */,
-				FD8E8AA927240DFA00075CE1 /* Resources */,
+				FD86C24B27390CAC00FC9565 /* Sources */,
+				FD86C24C27390CAC00FC9565 /* Frameworks */,
+				FD86C24D27390CAC00FC9565 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "ARKit tutorial_1";
-			productName = "ARKit tutorial_1";
-			productReference = FD8E8AAB27240DFA00075CE1 /* ARKit tutorial_1.app */;
+			name = faceTracking_1;
+			productName = faceTracking_1;
+			productReference = FD86C24F27390CAC00FC9565 /* faceTracking_1.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FD8E8ABF27240DFB00075CE1 /* ARKit tutorial_1Tests */ = {
+		FD86C26327390CAD00FC9565 /* faceTracking_1Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD8E8AD727240DFC00075CE1 /* Build configuration list for PBXNativeTarget "ARKit tutorial_1Tests" */;
+			buildConfigurationList = FD86C27B27390CAD00FC9565 /* Build configuration list for PBXNativeTarget "faceTracking_1Tests" */;
 			buildPhases = (
-				FD8E8ABC27240DFB00075CE1 /* Sources */,
-				FD8E8ABD27240DFB00075CE1 /* Frameworks */,
-				FD8E8ABE27240DFB00075CE1 /* Resources */,
+				FD86C26027390CAD00FC9565 /* Sources */,
+				FD86C26127390CAD00FC9565 /* Frameworks */,
+				FD86C26227390CAD00FC9565 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FD8E8AC227240DFB00075CE1 /* PBXTargetDependency */,
+				FD86C26627390CAD00FC9565 /* PBXTargetDependency */,
 			);
-			name = "ARKit tutorial_1Tests";
-			productName = "ARKit tutorial_1Tests";
-			productReference = FD8E8AC027240DFB00075CE1 /* ARKit tutorial_1Tests.xctest */;
+			name = faceTracking_1Tests;
+			productName = faceTracking_1Tests;
+			productReference = FD86C26427390CAD00FC9565 /* faceTracking_1Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FD8E8AC927240DFB00075CE1 /* ARKit tutorial_1UITests */ = {
+		FD86C26D27390CAD00FC9565 /* faceTracking_1UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD8E8ADA27240DFC00075CE1 /* Build configuration list for PBXNativeTarget "ARKit tutorial_1UITests" */;
+			buildConfigurationList = FD86C27E27390CAD00FC9565 /* Build configuration list for PBXNativeTarget "faceTracking_1UITests" */;
 			buildPhases = (
-				FD8E8AC627240DFB00075CE1 /* Sources */,
-				FD8E8AC727240DFB00075CE1 /* Frameworks */,
-				FD8E8AC827240DFB00075CE1 /* Resources */,
+				FD86C26A27390CAD00FC9565 /* Sources */,
+				FD86C26B27390CAD00FC9565 /* Frameworks */,
+				FD86C26C27390CAD00FC9565 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FD8E8ACC27240DFB00075CE1 /* PBXTargetDependency */,
+				FD86C27027390CAD00FC9565 /* PBXTargetDependency */,
 			);
-			name = "ARKit tutorial_1UITests";
-			productName = "ARKit tutorial_1UITests";
-			productReference = FD8E8ACA27240DFB00075CE1 /* ARKit tutorial_1UITests.xctest */;
+			name = faceTracking_1UITests;
+			productName = faceTracking_1UITests;
+			productReference = FD86C26E27390CAD00FC9565 /* faceTracking_1UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FD8E8AA327240DFA00075CE1 /* Project object */ = {
+		FD86C24727390CAC00FC9565 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					FD8E8AAA27240DFA00075CE1 = {
-						CreatedOnToolsVersion = 13.0;
+					FD86C24E27390CAC00FC9565 = {
+						CreatedOnToolsVersion = 13.1;
 					};
-					FD8E8ABF27240DFB00075CE1 = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = FD8E8AAA27240DFA00075CE1;
+					FD86C26327390CAD00FC9565 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = FD86C24E27390CAC00FC9565;
 					};
-					FD8E8AC927240DFB00075CE1 = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = FD8E8AAA27240DFA00075CE1;
+					FD86C26D27390CAD00FC9565 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = FD86C24E27390CAC00FC9565;
 					};
 				};
 			};
-			buildConfigurationList = FD8E8AA627240DFA00075CE1 /* Build configuration list for PBXProject "ARKit tutorial_1" */;
+			buildConfigurationList = FD86C24A27390CAC00FC9565 /* Build configuration list for PBXProject "faceTracking_1" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -212,38 +210,38 @@
 				en,
 				Base,
 			);
-			mainGroup = FD8E8AA227240DFA00075CE1;
-			productRefGroup = FD8E8AAC27240DFA00075CE1 /* Products */;
+			mainGroup = FD86C24627390CAC00FC9565;
+			productRefGroup = FD86C25027390CAC00FC9565 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FD8E8AAA27240DFA00075CE1 /* ARKit tutorial_1 */,
-				FD8E8ABF27240DFB00075CE1 /* ARKit tutorial_1Tests */,
-				FD8E8AC927240DFB00075CE1 /* ARKit tutorial_1UITests */,
+				FD86C24E27390CAC00FC9565 /* faceTracking_1 */,
+				FD86C26327390CAD00FC9565 /* faceTracking_1Tests */,
+				FD86C26D27390CAD00FC9565 /* faceTracking_1UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FD8E8AA927240DFA00075CE1 /* Resources */ = {
+		FD86C24D27390CAC00FC9565 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD8E8AB127240DFA00075CE1 /* art.scnassets in Resources */,
-				FD8E8ABB27240DFB00075CE1 /* LaunchScreen.storyboard in Resources */,
-				FD8E8AB827240DFB00075CE1 /* Assets.xcassets in Resources */,
-				FD8E8AB627240DFA00075CE1 /* Main.storyboard in Resources */,
+				FD86C25F27390CAD00FC9565 /* LaunchScreen.storyboard in Resources */,
+				FD86C282273915EC00FC9565 /* Models.scnassets in Resources */,
+				FD86C25C27390CAD00FC9565 /* Assets.xcassets in Resources */,
+				FD86C25A27390CAC00FC9565 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD8E8ABE27240DFB00075CE1 /* Resources */ = {
+		FD86C26227390CAD00FC9565 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD8E8AC827240DFB00075CE1 /* Resources */ = {
+		FD86C26C27390CAD00FC9565 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,60 +251,58 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FD8E8AA727240DFA00075CE1 /* Sources */ = {
+		FD86C24B27390CAC00FC9565 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD8E8AB327240DFA00075CE1 /* ViewController.swift in Sources */,
-				FD8E8AAF27240DFA00075CE1 /* AppDelegate.swift in Sources */,
+				FD86C25727390CAC00FC9565 /* ViewController.swift in Sources */,
+				FD86C25327390CAC00FC9565 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD8E8ABC27240DFB00075CE1 /* Sources */ = {
+		FD86C26027390CAD00FC9565 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD8E8AC527240DFB00075CE1 /* ARKit_tutorial_1Tests.swift in Sources */,
+				FD86C26927390CAD00FC9565 /* faceTracking_1Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD8E8AC627240DFB00075CE1 /* Sources */ = {
+		FD86C26A27390CAD00FC9565 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD8E8AD127240DFC00075CE1 /* ARKit_tutorial_1UITestsLaunchTests.swift in Sources */,
-				FD8E8ACF27240DFB00075CE1 /* ARKit_tutorial_1UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FD8E8AC227240DFB00075CE1 /* PBXTargetDependency */ = {
+		FD86C26627390CAD00FC9565 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FD8E8AAA27240DFA00075CE1 /* ARKit tutorial_1 */;
-			targetProxy = FD8E8AC127240DFB00075CE1 /* PBXContainerItemProxy */;
+			target = FD86C24E27390CAC00FC9565 /* faceTracking_1 */;
+			targetProxy = FD86C26527390CAD00FC9565 /* PBXContainerItemProxy */;
 		};
-		FD8E8ACC27240DFB00075CE1 /* PBXTargetDependency */ = {
+		FD86C27027390CAD00FC9565 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FD8E8AAA27240DFA00075CE1 /* ARKit tutorial_1 */;
-			targetProxy = FD8E8ACB27240DFB00075CE1 /* PBXContainerItemProxy */;
+			target = FD86C24E27390CAC00FC9565 /* faceTracking_1 */;
+			targetProxy = FD86C26F27390CAD00FC9565 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FD8E8AB427240DFA00075CE1 /* Main.storyboard */ = {
+		FD86C25827390CAC00FC9565 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FD8E8AB527240DFA00075CE1 /* Base */,
+				FD86C25927390CAC00FC9565 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		FD8E8AB927240DFB00075CE1 /* LaunchScreen.storyboard */ = {
+		FD86C25D27390CAD00FC9565 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FD8E8ABA27240DFB00075CE1 /* Base */,
+				FD86C25E27390CAD00FC9565 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -314,7 +310,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FD8E8AD227240DFC00075CE1 /* Debug */ = {
+		FD86C27627390CAD00FC9565 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -375,7 +371,7 @@
 			};
 			name = Debug;
 		};
-		FD8E8AD327240DFC00075CE1 /* Release */ = {
+		FD86C27727390CAD00FC9565 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -430,7 +426,7 @@
 			};
 			name = Release;
 		};
-		FD8E8AD527240DFC00075CE1 /* Debug */ = {
+		FD86C27927390CAD00FC9565 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -447,13 +443,12 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dongguk-univ.ARKit-tutorial-1";
+				PRODUCT_BUNDLE_IDENTIFIER = "dongguk-univ.faceTracking-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -461,7 +456,7 @@
 			};
 			name = Debug;
 		};
-		FD8E8AD627240DFC00075CE1 /* Release */ = {
+		FD86C27A27390CAD00FC9565 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -478,13 +473,12 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dongguk-univ.ARKit-tutorial-1";
+				PRODUCT_BUNDLE_IDENTIFIER = "dongguk-univ.faceTracking-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -492,13 +486,14 @@
 			};
 			name = Release;
 		};
-		FD8E8AD827240DFC00075CE1 /* Debug */ = {
+		FD86C27C27390CAD00FC9565 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X2AT796D57;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -507,22 +502,23 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dongguk-univ.ARKit-tutorial-1Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "dongguk-univ.faceTracking-1Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKit tutorial_1.app/ARKit tutorial_1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/faceTracking_1.app/faceTracking_1";
 			};
 			name = Debug;
 		};
-		FD8E8AD927240DFC00075CE1 /* Release */ = {
+		FD86C27D27390CAD00FC9565 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X2AT796D57;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -531,21 +527,22 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dongguk-univ.ARKit-tutorial-1Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "dongguk-univ.faceTracking-1Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKit tutorial_1.app/ARKit tutorial_1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/faceTracking_1.app/faceTracking_1";
 			};
 			name = Release;
 		};
-		FD8E8ADB27240DFC00075CE1 /* Debug */ = {
+		FD86C27F27390CAD00FC9565 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X2AT796D57;
 				GENERATE_INFOPLIST_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -553,21 +550,22 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dongguk-univ.ARKit-tutorial-1UITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "dongguk-univ.faceTracking-1UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "ARKit tutorial_1";
+				TEST_TARGET_NAME = faceTracking_1;
 			};
 			name = Debug;
 		};
-		FD8E8ADC27240DFC00075CE1 /* Release */ = {
+		FD86C28027390CAD00FC9565 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X2AT796D57;
 				GENERATE_INFOPLIST_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -575,55 +573,55 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dongguk-univ.ARKit-tutorial-1UITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "dongguk-univ.faceTracking-1UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "ARKit tutorial_1";
+				TEST_TARGET_NAME = faceTracking_1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FD8E8AA627240DFA00075CE1 /* Build configuration list for PBXProject "ARKit tutorial_1" */ = {
+		FD86C24A27390CAC00FC9565 /* Build configuration list for PBXProject "faceTracking_1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD8E8AD227240DFC00075CE1 /* Debug */,
-				FD8E8AD327240DFC00075CE1 /* Release */,
+				FD86C27627390CAD00FC9565 /* Debug */,
+				FD86C27727390CAD00FC9565 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD8E8AD427240DFC00075CE1 /* Build configuration list for PBXNativeTarget "ARKit tutorial_1" */ = {
+		FD86C27827390CAD00FC9565 /* Build configuration list for PBXNativeTarget "faceTracking_1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD8E8AD527240DFC00075CE1 /* Debug */,
-				FD8E8AD627240DFC00075CE1 /* Release */,
+				FD86C27927390CAD00FC9565 /* Debug */,
+				FD86C27A27390CAD00FC9565 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD8E8AD727240DFC00075CE1 /* Build configuration list for PBXNativeTarget "ARKit tutorial_1Tests" */ = {
+		FD86C27B27390CAD00FC9565 /* Build configuration list for PBXNativeTarget "faceTracking_1Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD8E8AD827240DFC00075CE1 /* Debug */,
-				FD8E8AD927240DFC00075CE1 /* Release */,
+				FD86C27C27390CAD00FC9565 /* Debug */,
+				FD86C27D27390CAD00FC9565 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD8E8ADA27240DFC00075CE1 /* Build configuration list for PBXNativeTarget "ARKit tutorial_1UITests" */ = {
+		FD86C27E27390CAD00FC9565 /* Build configuration list for PBXNativeTarget "faceTracking_1UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD8E8ADB27240DFC00075CE1 /* Debug */,
-				FD8E8ADC27240DFC00075CE1 /* Release */,
+				FD86C27F27390CAD00FC9565 /* Debug */,
+				FD86C28027390CAD00FC9565 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FD8E8AA327240DFA00075CE1 /* Project object */;
+	rootObject = FD86C24727390CAC00FC9565 /* Project object */;
 }
